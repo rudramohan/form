@@ -1,0 +1,130 @@
+<DOCTYPE html>
+    <html lang="en">
+      <head>
+        <title>Survey Form</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="survey.css" />
+        </head>
+        <body>
+          <h1 id="title">freeCodeCamp Survey Form</h1>
+          <p id="description">Thank you for taking the time to help us improve the platform</p>
+          <main>
+          <form id="survey-form">
+            <fieldset >
+              <label id="name-label">
+              Name
+              <br>
+              <input type="text" id="name" class="s" placeholder="Enter your name"> 
+              <br>
+              </label>
+              <label id="email-label">
+              Email
+              <br>
+              <input type="email" id="email" class="s" placeholder="Enter your Email">
+              <br>
+              </label>
+              <label id="number-label">
+                Age(optional)
+                <br>
+                <input type="number" min="10" max="99" id="number" class="d" placeholder="Age">
+                <br>
+                </label>
+                which option best describes your current role?
+                <br>
+                <label>
+                  <select id="dropdown" class="f" >
+                    <option selected disabled >                                    
+                    </option>
+                    <option class="q">
+                      Student
+                      </option>
+                      <option class="q">
+                        Full Time Job
+                      </option>
+                      <option class="q">
+                        Full Time Learner
+                      </option>
+                    <option class="q">
+                      Prefer not to say
+                      </option>
+                      <option class="q">
+                        Other
+                      </option>
+                      </select>
+                  </label>
+                Would you recommend freeCodeCamp to a friend?
+                <br>
+                <label>
+                    <input type="radio" name="y" class="v" value="recommend"> Definitely
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="y" class="v" value="recommend"> Maybe
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="y" class="v" value="recommend"> Not sure
+                </label>
+                <br>
+                <label>
+                    What is your favorite feature of freeCodeCamp?
+                    <br>
+                    <select id="dropdown1" class="g" >
+                      <option selected disabled>
+                      </option>
+                        <option>
+                          Challenges
+                          </option>
+                          <option>
+                            Projects
+                          </option>
+                          <option>
+                          Community
+                          </option>
+                        <option>
+                        Opensource
+                          </option>
+                          </select>    
+                </label>
+                <label>
+                  <br>
+                What would you like to see improved? (Check all that apply)  
+                <br>
+                <input type="checkbox" class="b" value="checkbox"> Front-end Projects
+                <br>
+                <input type="checkbox" class="b" value="checkbox"> Back-end Projects
+                <br>
+                <input type="checkbox" class="b" value="checkbox"> Data Visualization
+                <br>
+                <input type="checkbox" class="b" value="checkbox"> Challenges
+                <br>
+                <input type="checkbox" class="b" value="checkbox"> Open Source Community
+                <br>
+                <input type="checkbox" class="b" value="checkbox"> Gitter help rooms
+                <br>
+                <input type="checkbox" class="b" value="checkbox"> Videos
+                <br>
+                <input type="checkbox" class="b" value="checkbox"> City Meetups
+                <br>
+                <input type="checkbox" class="b" value="checkbox">Wiki
+                <br>
+                <input type="checkbox" class="b" value="checkbox">Forum
+                <br>
+                <input type="checkbox" class="b" value="checkbox">Additional Courses
+                <br>
+                </label>
+                <label>
+                  <br>
+                    <label> comments or suggestions?</label>
+                    <br>
+                    <textarea class="h" placeholder="Enter your comments here"></textarea>
+                </label>
+                <br>
+                <label>
+                    <input type="submit" class="x" value="Submit">
+                </label>
+              </fieldset>
+            </main>
+          </body>
+      </html>
+  

@@ -1,0 +1,124 @@
+h1,p{
+    text-align: center;
+    color: white;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    font-size: larger;
+    background-color:#56565b;
+}
+fieldset{
+    background-color: #3c3c42;
+}
+input::placeholder{
+    color: rgb(228, 225, 225);
+}
+fieldset{
+    width: 700px;
+    margin-left: 250px;
+    padding-left: 35px;
+    padding-top: 25px;
+
+}
+input[type=text]
+{
+    padding-left: 10px;
+    padding-right: 473px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #848382;
+    color: white;
+}
+input[type=text]:hover{
+    background-color: #b3b3c5;
+}
+input[type=email]:hover{
+    background-color: #b3b3c5;
+}
+input[type=number]:hover{
+    background-color: #b3b3c5;
+}
+input[type=email]
+{
+    padding-left: 10px;
+    padding-right: 473px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #848382;
+}
+input[type=number]
+{
+    padding-left: 10px;
+    padding-right: 575px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #848382;
+}
+.s{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding-left: 480px;
+    padding-bottom: 14px;
+}
+.d{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding-left: 585px;
+    padding-bottom: 14px;
+}
+.f{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding-left: 520px;
+    padding-bottom: 14px;
+    background-color: #848382;
+}
+.g{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-left: 550px;
+    padding-bottom: 14px;
+    margin-top: 10px;
+    background-color: #848382;
+}
+.h{
+    margin-left: 15px;
+    padding-left: 480px;
+    margin-bottom: 15px;
+    padding-bottom: 80px;  
+    margin-top: 15px; 
+    background-color: #848382;
+}
+.x{
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-left: 595px;
+    padding-bottom: 14px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #848382;
+}
+.v{
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+.b{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+input[type=submit]{
+    padding-left: 270px;
+    padding-right: 320px;
+    font-size:large;
+    padding-top: 8px;
+    padding-bottom: 8px; 
+}
